@@ -19,7 +19,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use(
   cors({
-    origin: ["http://localhost:3000", "https://pinvent-app.vercel.app", "https://funny-tarsier-5a3276.netlify.app"],
+    origin: ["http://localhost:3000", "https://pinventapp.netlify.app"],
     credentials: true,
   })
 );
